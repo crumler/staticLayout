@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto',Arial,sans-serif;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+}
+
+.flex-contain {
+    display: flex;
+    height: 60px;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h6 {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+a.hover {
+    opacity: 0.5;
+}
+
+#infoEmail {
+    font-weight: 200;
+}
+
+#cornerLogoDiv {
+    width: 80px;
+    object-fit: contain;
+    flex: 50%;
+    justify-content: flex-start;
+}
+
+#cornerLogo {
+    width: auto;
+    height: 60%;
+    align-items: flex-start;
+}
+
+.class {
+    min-height: 20px;
+    width: 80px;
+    margin: 10px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+#about {
+    justify-content: flex-end;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto','Helvetica';
+    font-weight: 800;
+    text-align: center;
+}
+
+#centerLogo {
+    align-content: center;
+}
+
+.news {
+    min-height: 20px;
+    width: 80px;
+    margin: 10px;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+#news {
+    color: white;
+}
+
+#news:hover {
+    color: #c70a0a;
+}
+
+.about {
+    position: relative;
+    display: inline-block;
+}
+
+.abtButton {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 17px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.abtContent {
+    display: none;
+    position: absolute;
+    border-top: #c70a0a;
+    z-index: 1;
+}
+
+.abtContent a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 10px;
+}
+
+.abtContent a:hover {
+    color: #c70a0a;
+}
+
+.about:hover .abtContent{
+    display: block;
+    border-top: 3px solid #c70a0a;
+}
+#about:hover {
+    color: #c70a0a;
+    display: block;
+}
+
+.centerLogoContain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.centerCovidContain {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.moreInfo {
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.infoButton {
+    background-color: #c70a0a;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.infoButton:hover {
+    background-color: black;
+}
+
+.redCombo {
+    color: red;
+    margin-left: -370px;
+    margin-top: -3em;
+}
+
+.whiteCombo {
+    color: white;
+    margin-left: -418px;
+    margin-top: -14px;
+}
+
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-column-gap: 1px;
+    justify-items: center;
+    margin-left: 100px;
+}
+
+.grid-contain2 {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 430px;
+    margin-right: 340px;
+}
+
+#quickResources {
+    color: red;
+    text-align: left;
+    margin-left: 442px;
+}
+
+.gridItemBlank {
+    justify-items: self-end;
+}
+
+.gridItemBlank2 {
+    justify-items: self-end;
+}
+
+.gridItemBlank3 {
+    justify-items: self-end;
+}
+
+.gridItemBlank4 {
+    justify-items: self-end;
+}
+
+.gridItemKO {
+    object-fit: cover;
+    object-position: 20% 10px;
+}
+
+.gridItemAstro {
+    object-fit: cover;
+    object-position: 20% 10px;
+    opacity: 100%;
+}
+
+.gridItemComment {
+    width: 262px;
+    object-fit: cover;
+    margin: auto;
+    overflow: hidden;
+}
+
+.commentImg {
+    object-fit: contain;
+    object-position: -120px 1px;
+}
+
+.gridItemVolunteer {
+    width: 262px;
+    object-fit: cover;
+    margin: auto;
+    overflow: hidden;
+}
+
+.volunteerImg {
+    object-fit: contain;
+    object-position: -120px 1px;
+}
+
+.gridItemArtist {
+    width: 262px;
+    object-fit: cover;
+    margin: auto;
+    overflow: hidden;
+}
+
+.artistImg {
+    object-fit: contain;
+    object-position: -155px 1px;
+}
+
+.gridItemApp {
+    width: 262px;
+    object-fit: cover;
+    object-position: 40% 40px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.appImg {
+    object-fit: contain;
+    object-position: -140px 1px;
+}
+
+.footContain {
+    display: flex;
+    height: 1em;
+}
+
+.leftFooter {
+    justify-content: flex-start;
+    color: white;
+}
+
+.rightFooter{
+    color: white;
+    text-align: right;
+    flex-grow: 8;
+}
+
+.gridContainAstro {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.gridAstroText {
+    background-color: yellow;
+    justify-content: flex-start;
+    text-align: left;
+}
